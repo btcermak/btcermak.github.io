@@ -63,3 +63,8 @@ iframe {
   margin: -5px;
   margin-left: 5px;
 }
+
+.emphasis {
+  color: #B5CE8D;
+  font-style: normal;
+}
