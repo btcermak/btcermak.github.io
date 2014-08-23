@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  margin: 0px;
 }
 
 body {
@@ -17,18 +18,17 @@ body {
 
 .page-wrap {
   min-height: 100%;
-  margin-bottom: -680px;
+  margin-bottom: -705px;
 }
+
 .page-wrap:after {
   content:"";
   display: block;
-}
-
-#container, .page-wrap:after {
-  height: 650px;
+  height: 705px;
 }
 
 #container {
+  height: 645px;
   width: 550px;
   margin: 15px;
   background: rgba(69,42,31,0.8);
