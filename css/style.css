@@ -50,17 +50,12 @@ h2 {
 }
 
 a {
-	color: #B5CE8D;
+	color: #E38966;
 	text-decoration: none;
 }
 
 img {
   border: none;
-}
-
-.emphasis {
-  color: #E38966;
-  font-style: normal;
 }
 
 iframe {
