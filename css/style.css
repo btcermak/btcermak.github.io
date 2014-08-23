@@ -1,4 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0px;
+  height: 100%;
   font-family: 'Happy Monkey', sans-serif;
   line-height: 1.5;
   color: #F2D08B;
@@ -9,14 +15,25 @@ body {
   background-attachment: fixed;
 }
 
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -680px;
+}
+.page-wrap:after {
+  content:"";
+  display: block;
+}
+
+#container, .page-wrap:after {
+  height: 650px;
+}
+
 #container {
   width: 550px;
   margin: 15px;
   background: rgba(69,42,31,0.8);
   padding: 15px;
   border-radius: 10px;
-  position: absolute;
-  bottom: 0px;
 }
 
 h1 {
