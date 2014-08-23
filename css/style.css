@@ -54,6 +54,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+  border: none;
+}
+
 .emphasis {
   color: #E38966;
   font-style: normal;
