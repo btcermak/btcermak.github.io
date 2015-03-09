@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  font-family: 'Happy Monkey', sans-serif;
+  line-height: 1.5;
+  color: #F2D08B;
+  /* Full Page Background Receipe */
+  background: url('../../../images/sedona.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -705px;
+}
+
+.page-wrap:after {
+  content:"";
+  display: block;
+  height: 705px;
+}
+
+#container {
+  height: 645px;
+  width: 550px;
+  margin: 15px;
+  background: rgba(69,42,31,0.8);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', serif;
+	font-size: 40px;
+	margin-bottom: -30px;
+  margin-top: -10px;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', serif;
+	font-size: 25px;
+  color: #B39377;
+}
+
+a {
+	color: #E38966;
+	text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+iframe {
+  margin-bottom: -20px;
+  margin: -5px;
+  margin-left: 5px;
+}
+
+.emphasis {
+  color: #B5CE8D;
+}
