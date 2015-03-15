@@ -1,0 +1,22 @@
+body {
+  color: #785c49;
+  background-image: url('../images/dude-ranch.jpg');
+}
+
+#container {
+  height: 655px;
+  background: rgba(130,159,143,0.9);
+  float: right;
+}
+
+h2 {
+  color: #58524a;
+}
+
+a {
+	color: #49395e;
+}
+
+.emphasis {
+  color: #58524a;
+}

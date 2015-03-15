@@ -1,0 +1,31 @@
+body {
+  color: #F2D08B;
+  background-image: url('../images/sedona.jpg');
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -705px;
+}
+
+.page-wrap:after {
+  content:"";
+  display: block;
+  height: 705px;
+}
+
+#container {
+  background: rgba(69,42,31,0.8);
+}
+
+h2 {
+  color: #B39377;
+}
+
+a {
+	color: #E38966;
+}
+
+.emphasis {
+  color: #B5CE8D;
+}

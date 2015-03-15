@@ -10,10 +10,8 @@ body {
   line-height: 1.5;
   color: #F2D08B;
   /* Full Page Background Receipe */
-  background: url('/images/sedona.jpg');
+  background: url('/images/sedona.jpg') fixed center;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 #container {

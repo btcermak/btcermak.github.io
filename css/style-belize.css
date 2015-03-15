@@ -1,0 +1,21 @@
+body {
+  color: #F2D08B;
+  background-image: url('../images/belize.jpg');
+}
+
+#container {
+  background: rgba(0,32,43,0.7);
+  float: right;
+}
+
+h2 {
+  color: #037872;
+}
+
+a {
+	color: #a5cebe;
+}
+
+.emphasis {
+  color: #18cc82;
+}
